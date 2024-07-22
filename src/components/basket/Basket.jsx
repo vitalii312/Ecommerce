@@ -35,7 +35,7 @@ const Basket = () => {
           console.log(e);
         });
     }
-  }, [basket.length]);
+  }, [basket]);
 
   const onCheckOut = () => {
     if (basket.length !== 0 && user) {
